@@ -5,6 +5,7 @@
 using namespace std;
 
 int main(){
+    //Taking a big string
     string s;
     cin>>s;
 
@@ -12,6 +13,8 @@ int main(){
     for(int i = 0; i<s.size(); i++){
         hash[s[i] - 'a']++;//for all character hash[s[i]]
     }
+
+    //Taking the characters for counting
     int q;
     cin>>q;
     while(q--){
